@@ -12,7 +12,7 @@
 
 | № | Задача | Сложность | Решение | Время | Память |
 |---|--------|-----------|---------|-------|--------|
-| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟠 Medium | [решение](algos/medium/Find%20Minimum%20in%20Rotated%20Sorted%20Array/) | O(n log n) | O(n) |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟠 Medium | [сортировка](algos/medium/Find%20Minimum%20in%20Rotated%20Sorted%20Array/solution.py), [бинарный поиск](algos/medium/Find%20Minimum%20in%20Rotated%20Sorted%20Array/solution_binary_search.py) | O(log n) | O(1) |
 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | [решение](algos/easy/Minimum%20Index%20Sum%20of%20Two%20Lists/) | O(n + m) | O(n) |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | 🟢 Easy | [решение](algos/easy/To%20Lower%20Case/) | O(n) | O(n) |
 
@@ -24,7 +24,8 @@ algos/
 │   └── <Название задачи>/
 │       ├── README.md          # условие и разбор
 │       ├── solution.py        # решение
-│       ├── test_solution.py   # тесты
+│       ├── solution_*.py      # другие варианты решения (если есть)
+│       ├── test_solution.py   # тесты, проверяют все варианты
 │       └── picture.png        # скриншот принятого решения
 └── medium/
     └── ...
